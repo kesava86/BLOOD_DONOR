@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/opt/lampp/htdocs/PHP_Files/blood1.jpg");
+    width: 100%;
+    height: 165vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: red;
+}
+
+.h2 {
+    color: #fff;
+}
+
+.h3 {
+    color: red;
+}
+
+h4 {
+    color: #fff;
+    justify-content: center;
+    left: 40%;
+    position: relative;
+}
+
+.logo1 {
+    margin-top: 10px;
+    width: 320px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 90%;
+    padding: 0 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: large;
+    position: relative;
+}
+
+.navbar ul li a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+ion-icon {
+    margin: 0px 2px;
+    margin-top: 5px;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    top: 50%;
+    translate: translateY(-50%);
+    text-align: center;
+    position: absolute;
+    color: #fff;
+}
+
+.content h2 {
+    margin-top: -50px;
+    font-size: 40px;
+}
+
+.content p {
+    color: #baa3a3;
+    line-height: 25px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #009688;
+    color: black;
+    font-size: 20px;
+    border: 1px solid yellow;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    border: 1px solid #fff;
+    background-color: red;
+    color: black;
+}
+
+.banner1 {
+    left: 25%;
+    top: 10%;
+    align-items: center;
+    border: 2px solid black;
+    width: 650px;
+    background: transparent;
+    height: 900px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.padd1 {
+    left: 5%;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    width: 85%;
+}
+
+.error {
+    color: red;
+    font-weight: 500;
+    font-size: medium;
+}

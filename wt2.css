@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("blood1.jpg");
+    width: 100%;
+    height: 195vh;
+    background-size: cover;
+    background-position: center;
+}
+
+label {
+    color: #fff;
+}
+
+h1 {
+    color: red;
+}
+
+.h2 {
+    color: hsl(171, 10%, 86%);
+}
+
+.h3 {
+    color: red;
+}
+
+h4 {
+    color: #fff;
+    justify-content: center;
+    left: 40%;
+    position: relative;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 320px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 90%;
+    padding: 0 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: large;
+    position: relative;
+}
+
+.navbar ul li a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+ion-icon {
+    margin: 0px 2px;
+    margin-top: 5px;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    top: 50%;
+    translate: translateY(-50%);
+    text-align: center;
+    position: absolute;
+    color: #fff;
+}
+
+.content h2 {
+    margin-top: -50px;
+    font-size: 40px;
+}
+
+.content p {
+    color: #baa3a3;
+    line-height: 25px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #009688;
+    color: black;
+    font-size: 20px;
+    border: 1px solid yellow;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    border: 1px solid #fff;
+    background-color: red;
+    color: black;
+}
+
+.banner1 {
+    left: 20%;
+    top: 10%;
+    align-items: center;
+    border: 2px solid black;
+    width: 680px;
+    background: transparent;
+    height: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.padd1 {
+    left: 5%;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    width: 85%;
+}
+
+.error {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.error1 {
+    text-align: center;
+    color: rgb(17, 2, 2);
+    left: 20px;
+    top: 30%;
+    font-size: 2rem;
+    position: relative;
+}
+
+.sign {
+    text-align: center;
+    margin: 1rem 0;
+    color: #f4c1c1;
+}
+
+.log {
+    position: relative;
+    left: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: #001210;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+}
+
+.log:hover {
+    color: rgb(10, 1, 1);
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #001210;
+}
+
+@media(max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+    .logo1 {
+        margin-top: 10px;
+        width: 320px;
+        cursor: pointer;
+        font-size: 3rem;
+    }
+    .navbar ul li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0 10px;
+        font-size: large;
+        position: relative;
+    }
+    .content p {
+        color: #e0cece;
+        line-height: 25px;
+        font-weight: 200;
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("blood1.jpg");
+        width: 100%;
+        height: 170vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner1 {
+        left: 0%;
+        top: 10%;
+        align-items: center;
+        border: 2px solid black;
+        width: 350px;
+        background: transparent;
+        height: 700px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 55%;
+    }
+    .logo1 {
+        margin-top: 10px;
+        width: 320px;
+        cursor: pointer;
+        font-size: 3rem;
+    }
+    .navbar ul li {
+        display: block;
+        list-style-type: none;
+        margin: 0 10px;
+        font-size: large;
+        position: relative;
+    }
+    .btn {
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: #009688;
+        color: black;
+        font-size: 20px;
+        border: 1px solid yellow;
+        cursor: pointer;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .content h2 {
+        margin-top: -50px;
+        font-size: 35px;
+    }
+    .content p {
+        color: #e0cece;
+        line-height: 25px;
+        font-weight: 200;
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("blood1.jpg");
+        width: 100%;
+        height: 180vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner1 {
+        left: 0%;
+        top: 10%;
+        align-items: center;
+        border: 2px solid black;
+        width: 350px;
+        background: transparent;
+        height: 700px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+}
+
+@media(max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+    .logo1 {
+        margin-top: 10px;
+        width: 320px;
+        cursor: pointer;
+        font-size: 3rem;
+    }
+    .navbar ul li {
+        display: block;
+        list-style-type: none;
+        margin: 0 10px;
+        font-size: large;
+        position: relative;
+    }
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("blood1.jpg");
+        width: 100%;
+        height: 190vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner1 {
+        left: 0%;
+        top: 10%;
+        align-items: center;
+        border: 2px solid black;
+        width: 350px;
+        background: transparent;
+        height: 700px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+}
